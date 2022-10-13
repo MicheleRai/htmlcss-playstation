@@ -11,5 +11,30 @@ main section .bg-returnal{
     height: 100vh;
 }
 main section .bg-returnal img{
-    width: 20%;
+    width: 50%;
+}
+main section .bg-itt{
+    background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+main section .bg-itt img{
+    width: 50%;
+}
+
+/* media and animation */
+@media screen and (min-width: 992px) {
+    main section .bg-returnal img{
+        width: 20%;
+    }
+    main section .bg-returnal p{
+        width: 25%;
+    }
+    main section .bg-itt img{
+        width: 35%;
+    }
+    main section .bg-itt p{
+        width: 25%;
+    }
 }
