@@ -4,3 +4,12 @@
 .sony-container img{
     height: 70%;
 }
+main section .bg-returnal{
+    background-image: url("img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+main section .bg-returnal img{
+    width: 20%;
+}
