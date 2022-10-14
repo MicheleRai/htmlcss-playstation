@@ -29,6 +29,9 @@ main section .bg-returnal{
 main section .bg-returnal img{
     width: 50%;
 }
+.card-consigliati{
+    border-radius: 2rem;
+}
 main section .bg-itt{
     background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
