@@ -61,6 +61,9 @@ main section .bg-itt img{
 .ps-now-img{
     display: none;
 }
+footer{
+    background-color: #00439C;
+}
 /* media and animation */
 @media screen and (min-width: 768px) {
     main section .bg-returnal img{
