@@ -52,8 +52,17 @@ main section .bg-itt img{
 .ps-plus-img{
     display: none;
 }
+.ps-now{
+    background-color: #161C3B;
+}
+.ps-now button{
+    font-weight: 700 ;
+}
+.ps-now-img{
+    display: none;
+}
 /* media and animation */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     main section .bg-returnal img{
         width: 20%;
     }
@@ -67,6 +76,9 @@ main section .bg-itt img{
         width: 25%;
     }
     main section .ps-plus-img{
+        display: unset;
+    }
+    main section .ps-now-img{
         display: unset;
     }
 }
