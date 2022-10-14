@@ -44,7 +44,14 @@ main section .bg-itt img{
 .ps-plus{
     background-color: #BEBCBB;
 }
-
+.ps-plus button{
+    background-color: #D9DADC;
+    color: #3066E6;
+    font-weight: 700 ;
+}
+.ps-plus-img{
+    display: none;
+}
 /* media and animation */
 @media screen and (min-width: 992px) {
     main section .bg-returnal img{
@@ -58,5 +65,8 @@ main section .bg-itt img{
     }
     main section .bg-itt p{
         width: 25%;
+    }
+    main section .ps-plus-img{
+        display: unset;
     }
 }
