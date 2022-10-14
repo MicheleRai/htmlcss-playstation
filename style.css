@@ -64,6 +64,9 @@ main section .bg-itt img{
 footer{
     background-color: #00439C;
 }
+footer .ps-footer-img{
+    width: 17vw; 
+}
 /* media and animation */
 @media screen and (min-width: 768px) {
     main section .bg-returnal img{
