@@ -30,7 +30,7 @@ main section .bg-returnal img{
     width: 50%;
 }
 .card-consigliati{
-    border-radius: 2rem;
+    border: 2px solid white;
 }
 main section .bg-itt{
     background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
@@ -43,6 +43,12 @@ main section .bg-itt img{
 }
 .ps-plus{
     background-color: #BEBCBB;
+}
+.console-card-img{
+    opacity: 0.5;
+}
+.console-card{
+    border-bottom: 3px solid white;
 }
 .ps-plus button{
     background-color: #D9DADC;
@@ -68,6 +74,16 @@ footer .ps-footer-img{
     width: 17vw; 
 }
 /* media and animation */
+.card-consigliati:hover{
+    border: 2px solid blue;
+    transform: translateY(-10px);
+}
+.console-card:hover .console-card-img{
+    opacity: 1;
+}
+.console-card:hover{
+    border-bottom: 3px solid blue;
+}
 @media screen and (min-width: 768px) {
     main section .bg-returnal img{
         width: 20%;
